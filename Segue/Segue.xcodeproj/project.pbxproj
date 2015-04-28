@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CE37E1371AEE5F80008828D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37E1361AEE5F80008828D2 /* AppDelegate.swift */; };
-		CE37E1391AEE5F80008828D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37E1381AEE5F80008828D2 /* ViewController.swift */; };
 		CE37E13C1AEE5F80008828D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE37E13A1AEE5F80008828D2 /* Main.storyboard */; };
 		CE37E13E1AEE5F80008828D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE37E13D1AEE5F80008828D2 /* Images.xcassets */; };
 		CE37E1411AEE5F80008828D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE37E13F1AEE5F80008828D2 /* LaunchScreen.xib */; };
 		CE37E14D1AEE5F80008828D2 /* SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37E14C1AEE5F80008828D2 /* SegueTests.swift */; };
+		CE54B5201AEF099E0046D606 /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54B51E1AEF099E0046D606 /* AddToDoItemViewController.swift */; };
+		CE54B5211AEF099E0046D606 /* AddToListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE54B51F1AEF099E0046D606 /* AddToListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		CE37E1311AEE5F80008828D2 /* Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE37E1351AEE5F80008828D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE37E1361AEE5F80008828D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE37E1381AEE5F80008828D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE37E13B1AEE5F80008828D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE37E13D1AEE5F80008828D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE37E1401AEE5F80008828D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CE37E1461AEE5F80008828D2 /* SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE37E14B1AEE5F80008828D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE37E14C1AEE5F80008828D2 /* SegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueTests.swift; sourceTree = "<group>"; };
+		CE54B51E1AEF099E0046D606 /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
+		CE54B51F1AEF099E0046D606 /* AddToListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				CE37E1361AEE5F80008828D2 /* AppDelegate.swift */,
-				CE37E1381AEE5F80008828D2 /* ViewController.swift */,
+				CE54B51E1AEF099E0046D606 /* AddToDoItemViewController.swift */,
+				CE54B51F1AEF099E0046D606 /* AddToListTableViewController.swift */,
 				CE37E13A1AEE5F80008828D2 /* Main.storyboard */,
 				CE37E13D1AEE5F80008828D2 /* Images.xcassets */,
 				CE37E13F1AEE5F80008828D2 /* LaunchScreen.xib */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE37E1391AEE5F80008828D2 /* ViewController.swift in Sources */,
 				CE37E1371AEE5F80008828D2 /* AppDelegate.swift in Sources */,
+				CE54B5201AEF099E0046D606 /* AddToDoItemViewController.swift in Sources */,
+				CE54B5211AEF099E0046D606 /* AddToListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				CE37E1521AEE5F80008828D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE37E1531AEE5F80008828D2 /* Build configuration list for PBXNativeTarget "SegueTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				CE37E1551AEE5F80008828D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
